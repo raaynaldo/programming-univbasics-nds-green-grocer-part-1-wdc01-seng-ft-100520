@@ -27,16 +27,3 @@ def consolidate_cart(cart)
   }
   return consolidate
 end
-
-def coupons
-	[
-		{:item => "AVOCADO", :num => 2, :cost => 5.00},
-		{:item => "BEER", :num => 2, :cost => 20.00},
-		{:item => "CHEESE", :num => 3, :cost => 15.00},
-    {:item => "CHEESE", :num => 3, :cost => 15.00},
-    {:item => "CHEESE", :num => 3, :cost => 15.00},
-    {:item => "CHEESE", :num => 3, :cost => 15.00},
-	]
-end
-
-puts consolidate_cart(coupons())
